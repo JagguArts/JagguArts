@@ -1,7 +1,9 @@
-- 👋 Hey everyone I’m Jaggu.
-- 👀 I am interested in anything related to coding.
-- 🌱 I have a bit of knowledge in coding but never coded before so I am a complete beginner and right now I am learning the basics of python.
-- 💞️ I don't really know how this collaboration thing works and incase you want to discuss about it with me please do
-- 📫 You can contact me through my email: akkineni.jagadeesh@gmail.com
+The following code turns on your webcam(if present), opens 4 windows each having its own property and captures video.
 
+For this code to run you need to have python in your system and a package called openCV. You can install the package in windows by going to command prompt in your PC and
+typing "pip install opencv-python".
 
+To exit the program you need to press 'q' on your keyboard.
+
+IMPORTANT:
+I am not the creator of this code and this is for educational purpose only.
