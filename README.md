@@ -1,3 +1,5 @@
+Instructions
+
 1. The following code turns on your webcam(if present), opens 4 windows each having its own property and captures video.
 
 2. For this code to run you need to have python in your system and a package called openCV. You can install the package in windows by going to command prompt in your PC and
