@@ -94,6 +94,7 @@ class MatrixProcessing extends MatrixPrinting
       			}
       		System.out.print("|");	
       		System.out.println(); // new line.
+		
     		}
 	}
 }
