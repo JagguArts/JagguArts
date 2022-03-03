@@ -31,14 +31,14 @@ class MatrixPrinting extends variables // Here extends keyword is used to inheri
 	for(int i_1=0; i_1<A.length; i_1++) 
 		{
 		System.out.print("|");	// This is not necessary.
-      	// inner loop for column.
-      	for(int i_2=0; i_2<A[0].length; i_2++) 
-      		{
+      		// inner loop for column.
+      		for(int i_2=0; i_2<A[0].length; i_2++) 
+      			{
         		System.out.print(A[i_1][i_2] + " ");
-      		}
-      	System.out.print("|");	
-      	System.out.println(); // new line.
-    	}
+      			}
+      		System.out.print("|");	
+      		System.out.println(); // new line.
+    		}
 
   System.out.println("Second matrix: ");
     
@@ -46,14 +46,14 @@ class MatrixPrinting extends variables // Here extends keyword is used to inheri
 	for(int j_1=0; j_1<B.length; j_1++) 
 		{
 		System.out.print("|");
-      	// inner loop for column.
-      	for(int j_2=0; j_2<B[0].length; j_2++) 
-      		{
+      		// inner loop for column.
+      		for(int j_2=0; j_2<B[0].length; j_2++) 
+      			{
         		System.out.print(B[j_1][j_2] + " ");
-      		}
-      	System.out.print("|");	
-      	System.out.println(); // new line.
-    	}	
+      			}
+      		System.out.print("|");	
+      		System.out.println(); // new line.
+    		}	
 	}
 }
 
@@ -69,14 +69,14 @@ class MatrixProcessing extends MatrixPrinting
 		for(int k_1=0; k_1<B.length; k_1++) 
 		{
 		System.out.print("|");
-      	// inner loop for column.
-      	for(int k_2=0; k_2<3; k_2++) 
-      		{
-        		System.out.print(A[k_1][k_2] + B[k_1][k_2] + " ");
-      		}
-      	System.out.print("|");	
-      	System.out.println(); // new line.
-    	}
+      		// inner loop for column.
+      		for(int k_2=0; k_2<3; k_2++) 
+      			{
+        			System.out.print(A[k_1][k_2] + B[k_1][k_2] + " ");
+      			}
+      		System.out.print("|");	
+      		System.out.println(); // new line.
+    		}
 	}
   // This method takes care of subtraction between A and B matrices.
  	void subtraction()
@@ -87,14 +87,14 @@ class MatrixProcessing extends MatrixPrinting
 		for(int l_1=0; l_1<B.length; l_1++) 
 		{
 		System.out.print("|");
-      	// inner loop for column.
-      	for(int l_2=0; l_2<3; l_2++) 
-      		{
-        		System.out.print(A[l_1][l_2] - B[l_1][l_2] + " ");
-      		}
-      	System.out.print("|");	
-      	System.out.println(); // new line.
-    	}
+      		// inner loop for column.
+      		for(int l_2=0; l_2<3; l_2++) 
+      			{
+        			System.out.print(A[l_1][l_2] - B[l_1][l_2] + " ");
+      			}
+      		System.out.print("|");	
+      		System.out.println(); // new line.
+    		}
 	}
 }
 
