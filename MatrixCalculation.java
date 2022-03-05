@@ -2,7 +2,7 @@ class variables
 {
   //This class contains all the variables (It is not necessary to create a separate class just to store variables).
   //If you decide to create a separate class just for variables then remember that the classes which- 
-  //-are going to use these needs to inherit the current class as the following variables are not global variables.
+  //-are going to use these needs to inherit the current class as the following variables cannot be used by other classes directly.
   
 	int A[][] = {{ 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }};
 	int B[][] = {{ 10 , 11, 12 }, { 13, 14, 15 }, { 16, 17, 18 }};
